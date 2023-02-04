@@ -10,6 +10,6 @@ class ATVatFormatValidator extends CountryVatFormatValidator
 
     protected function isValidFormat(string $vatNumber): bool
     {
-        return (bool)preg_match(self::VAT_NUMBER_PATTERN, $vatNumber);
+        return (bool) preg_match(self::VAT_NUMBER_PATTERN, $vatNumber);
     }
 }
