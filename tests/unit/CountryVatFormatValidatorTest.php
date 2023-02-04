@@ -1,7 +1,6 @@
 <?php
 
-// TODO: set namespace
-namespace unit;
+namespace rocketfellows\ATVatFormatValidator\tests\unit;
 
 class CountryVatFormatValidatorTest extends TestCase
 {
