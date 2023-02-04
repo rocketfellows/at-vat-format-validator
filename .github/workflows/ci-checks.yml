@@ -41,6 +41,7 @@ jobs:
       - name: Run PHPUnit Tests
         uses: php-actions/phpunit@v3
         with:
+          version: 9.5.28
           php_extensions: xdebug
           bootstrap: vendor/autoload.php
           configuration: phpunit.xml
