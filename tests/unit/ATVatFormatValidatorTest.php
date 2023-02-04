@@ -4,7 +4,7 @@ namespace rocketfellows\ATVatFormatValidator\tests\unit;
 
 use PHPUnit\Framework\TestCase;
 
-class CountryVatFormatValidatorTest extends TestCase
+class ATVatFormatValidatorTest extends TestCase
 {
     /**
      * TODO: set type
